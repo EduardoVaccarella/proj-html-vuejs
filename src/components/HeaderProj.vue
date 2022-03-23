@@ -1,6 +1,6 @@
 <template>
   <div class="container-fluid">
-    <div class="container">
+    <div class="ms-container">
       <div class="logo">
         <img src="../assets/img/MasterStudy-1.svg" alt="">
       </div>
@@ -49,16 +49,29 @@ export default {
 <style scoped lang="scss">
 @import '../app.scss';
 
-.container, .nav-bar, .nav-icon-wrapper {
+.ms-container, .nav-bar, .nav-icon-wrapper {
   height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+.ms-container {
+  padding: 0px 57px;
+}
+
+.logo {
+  height: 30px;
+
+  img {
+    max-height: 100%;
+  }
+}
+
 .nav-bar {
-  font-weight: 600;
-  color: $mineShaft;
+  font-weight: 700;
+  color: $abbey;
+  font-size: 12px;
 }
 
 .nav-item {
@@ -84,9 +97,11 @@ export default {
 }
 
 .new-bedge {
+  line-height: 12px;
+  height: 12px;
   position: absolute;
-  top: 29px;
-  transform: translateX(68px);
+  top: 31px;
+  transform: translateX(48px);
   color: white;
   background-color: rgb(235, 0, 90);
   padding: 0px 4px;
