@@ -2,18 +2,21 @@
   <div id="app">
     <HeaderProj/>
     <JumbotronProj/>
+    <FounderProj/>
   </div>
 </template>
 
 <script>
 import HeaderProj from './components/HeaderProj.vue'
 import JumbotronProj from './components/JumbotronProj.vue'
+import FounderProj from './components/FounderProj.vue'
 
 export default {
   name: 'App',
   components: {
     HeaderProj,
-    JumbotronProj
+    JumbotronProj,
+    FounderProj
   }
 }
 </script>
