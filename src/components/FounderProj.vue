@@ -29,7 +29,7 @@ export default {
 .ms-container {
     padding: 0px 57px;
     height: 403px;
-    margin-top: 135px;
+    padding-top: 135px;
     display: flex;
     justify-content: space-between;
 

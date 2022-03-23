@@ -3,6 +3,7 @@
     <HeaderProj/>
     <JumbotronProj/>
     <FounderProj/>
+    <CoursesProj/>
   </div>
 </template>
 
@@ -10,13 +11,15 @@
 import HeaderProj from './components/HeaderProj.vue'
 import JumbotronProj from './components/JumbotronProj.vue'
 import FounderProj from './components/FounderProj.vue'
+import CoursesProj from './components/CoursesProj.vue'
 
 export default {
   name: 'App',
   components: {
     HeaderProj,
     JumbotronProj,
-    FounderProj
+    FounderProj,
+    CoursesProj
   }
 }
 </script>
