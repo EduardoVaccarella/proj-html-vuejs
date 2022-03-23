@@ -9,19 +9,21 @@
                 A wonderful serenity has taken possession of my entire soul,
                 like theese sweat mornings of spring which i enjoy with my whole heart.
             </p>
-        </div> 
+        </div>
+
+        <CountdownJumbotron/>
     </div>
   </div>
 </template>
 
 <script>
+import CountdownJumbotron from './CountdownJumbotron.vue'
+
 export default {
   name: 'JumbotronProj',
-  data() {
-    return {
-
-        }
-    }
+  components: {
+    CountdownJumbotron
+  }
 }
 </script>
 
@@ -42,11 +44,11 @@ export default {
 
     .margin-top-left {
         margin-top: 150px;
-        margin-left: calc(388px - 30px);
+        margin-left: calc(388px - 15px);
     }
 
     h1 {
-        font-size: 43px;
+        font-size: 46px;
         font-weight: 700;
         color: $shark;
 
