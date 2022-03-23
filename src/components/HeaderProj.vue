@@ -86,7 +86,7 @@ export default {
 .new-bedge {
   position: absolute;
   top: 29px;
-  right: 665px;
+  transform: translateX(68px);
   color: white;
   background-color: rgb(235, 0, 90);
   padding: 0px 4px;
