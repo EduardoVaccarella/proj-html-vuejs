@@ -8,7 +8,7 @@
         <div class="card-wrapper d-flex justify-content-center">
             <div class="card" v-for="(card,i) in cards" :key="i">
                 <div class="img-wrapper">
-                    <img :src="card.img" alt="img">
+                    <img :src="'../assets/img/' + card.img" alt="">
                 </div>
                 <div class="content-wrapper">
                     <h6>
@@ -43,6 +43,10 @@
                 </div>
             </div>
         </div>
+
+        <div class="button">
+            Load More
+        </div>
     </div>
   </div>
 </template>
@@ -56,32 +60,32 @@ export default {
                 {
                     text: 'How to be a DJ? Make Electronic Music',
                     category: 'Electronic',
-                    img: '../assets/img/12345-1-370x200.png'
+                    img: 'photo-1496307042754-b4aa456c4a2d-740x400.jpeg'
                 },
                 {
                     text: 'Nvidia and UE4 Technologies Practice',
                     category: 'Nvidia',
-                    img: '../assets/img/12345-1-370x200.png'
+                    img: '12345-1-370x200.png'
                 },
                 {
                     text: 'Fashion Photography from professional',
                     category: 'Fashion',
-                    img: '../assets/img/12345-1-370x200.png'
+                    img: 'photo-1491897554428-130a60dd4757-370x200.jpeg'
                 },
                 {
                     text: 'Design Instrument for Communication',
                     category: 'Communication',
-                    img: '../assets/img/12345-1-370x200.png'
+                    img: 'photo-1416339134316-0e91dc9ded92-370x200.jpeg'
                 },
                 {
                     text: 'Make your Concept Right and Beautiful',
                     category: 'Art',
-                    img: '../assets/img/12345-1-370x200.png'
+                    img: 'cathryn-lavery-67852-unsplash-370x200.jpg'
                 },
                 {
                     text: 'Read Bike Manual or How to be a Champion',
                     category: 'Bicycling',
-                    img: '../assets/img/12345-1-370x200.png'
+                    img: 'photo-1475452779376-caebfb988090-370x200.jpeg'
                 }
             ]
         }
@@ -104,7 +108,7 @@ export default {
     align-items: center;
 
     h1 {
-        font-size: 23px;
+        font-size: 28px;
         font-weight: bold;
         text-transform: capitalize;
         margin-bottom: 45px;
@@ -114,6 +118,7 @@ export default {
     .card-wrapper {
         flex-wrap: wrap;
         gap: 19px;
+        margin-bottom: 41px;
 
         .card {
             height: 303px;
@@ -166,8 +171,20 @@ export default {
             span {
                 color: $mineShaft;
                 font-size: 8px;
+                margin-left: 3px;
             }
         }
+    }
+
+    .button {
+        text-transform: uppercase;
+        color: white;
+        font-weight: 600;
+        font-size: 8px;
+        padding: 12px 17px;
+        background-color: $buttercup;
+        border-radius: 32px;
+        cursor: pointer;
     }
 }
 </style>
