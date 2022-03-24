@@ -4,6 +4,9 @@
     <JumbotronProj/>
     <FounderProj/>
     <CoursesProj/>
+    <AmazonSectionProj/>
+    <Cards2Proj/>
+    <PeopleJumbotron/>
   </div>
 </template>
 
@@ -12,6 +15,9 @@ import HeaderProj from './components/HeaderProj.vue'
 import JumbotronProj from './components/JumbotronProj.vue'
 import FounderProj from './components/FounderProj.vue'
 import CoursesProj from './components/CoursesProj.vue'
+import AmazonSectionProj from './components/AmazonSectionProj.vue'
+import Cards2Proj from './components/Cards2Proj.vue'
+import PeopleJumbotron from './components/PeopleJumbotron.vue'
 
 export default {
   name: 'App',
@@ -19,7 +25,10 @@ export default {
     HeaderProj,
     JumbotronProj,
     FounderProj,
-    CoursesProj
+    CoursesProj,
+    AmazonSectionProj,
+    Cards2Proj,
+    PeopleJumbotron
   }
 }
 </script>

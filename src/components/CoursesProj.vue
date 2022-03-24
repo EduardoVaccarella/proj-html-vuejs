@@ -60,7 +60,7 @@ export default {
                 {
                     text: 'How to be a DJ? Make Electronic Music',
                     category: 'Electronic',
-                    img: 'photo-1496307042754-b4aa456c4a2d-740x400.jpeg'
+                    img: 'photo-1496307042754-b4aa456c4a2d-370x200.jpeg'
                 },
                 {
                     text: 'Nvidia and UE4 Technologies Practice',
