@@ -126,14 +126,16 @@ export default {
         }
 
         .img-wrapper {
-            width: 251px;
+            width: 249px;
             height: 167px;
             background-position: center;
             background-size: cover;
+            border-radius: 3px;
 
             img {
-                width: 250px;
+                width: 249px;
                 height: 167px;
+                border-radius: 3px;
             }
         }
     }
