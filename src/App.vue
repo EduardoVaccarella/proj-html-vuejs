@@ -7,6 +7,8 @@
     <AmazonSectionProj/>
     <Cards2Proj/>
     <PeopleJumbotron/>
+    <StudentsProj/>
+    <FooterProj/>
   </div>
 </template>
 
@@ -18,6 +20,8 @@ import CoursesProj from './components/CoursesProj.vue'
 import AmazonSectionProj from './components/AmazonSectionProj.vue'
 import Cards2Proj from './components/Cards2Proj.vue'
 import PeopleJumbotron from './components/PeopleJumbotron.vue'
+import StudentsProj from './components/StudentsProj.vue'
+import FooterProj from './components/FooterProj.vue'
 
 export default {
   name: 'App',
@@ -28,7 +32,9 @@ export default {
     CoursesProj,
     AmazonSectionProj,
     Cards2Proj,
-    PeopleJumbotron
+    PeopleJumbotron,
+    StudentsProj,
+    FooterProj
   }
 }
 </script>

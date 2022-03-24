@@ -20,13 +20,13 @@ import { faDesktop, faCircle, faWrench, faCartArrowDown, faMobile} from '@fortaw
 
 import { faToolbox, faRocket, faThumbsUp, faGear } from '@fortawesome/free-solid-svg-icons'
 
-import { faUsers, faFilm, faPhotoFilm } from '@fortawesome/free-solid-svg-icons'
+import { faUsers, faFilm, faPhotoFilm, faStar, faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
 /* import font awesome icon component */
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 /* add icons to the library */
-library.add(faLinkedin, faInstagram, faFacebook, faTwitter, faBars, faClock, faSignal, faDesktop, faCircle, faWrench, faCartArrowDown, faMobile, faToolbox, faRocket, faThumbsUp, faGear, faUsers, faFilm, faPhotoFilm)
+library.add(faLinkedin, faInstagram, faFacebook, faTwitter, faBars, faClock, faSignal, faDesktop, faCircle, faWrench, faCartArrowDown, faMobile, faToolbox, faRocket, faThumbsUp, faGear, faUsers, faFilm, faPhotoFilm, faStar, faArrowLeft, faArrowRight)
 
 /* add font awesome icon component */
 Vue.component('font-awesome-icon', FontAwesomeIcon)
