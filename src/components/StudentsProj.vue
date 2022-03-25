@@ -124,5 +124,9 @@ export default {
         line-height: 24px;
         width: 508px;
     }
+
+    .freccia {
+        cursor: pointer;
+    }
 }
 </style>

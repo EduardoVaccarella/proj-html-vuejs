@@ -8,7 +8,7 @@
             <h3>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam earum quos dolorem tempore voluptate eum?
             </h3>
-            <div>
+            <div class="button">
                 <img src="../assets/img/amazon.png" alt="">
             </div>
         </div>
@@ -49,7 +49,7 @@ export default {
     background-color: #2E2F34;
     height: 408px;
     background-position: center;
-    background-size: contain;
+    background-size: 1296px;
     background-repeat: no-repeat;
     background-image: url('../assets/img/slider_1-1917x607-1914x606.jpg');
 
@@ -101,6 +101,14 @@ export default {
             justify-content: space-evenly;
             align-items: center;
             flex-direction: column;
+
+            .icon {
+                cursor: pointer;
+            }
+        }
+
+        .button {
+            cursor: pointer;
         }
     }
 }

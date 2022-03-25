@@ -100,6 +100,7 @@ export default {
           .icon {
             color: white;
             font-size: 45px;
+            cursor: pointer;
           }
         }
       }

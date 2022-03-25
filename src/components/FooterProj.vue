@@ -144,10 +144,12 @@ export default {
                 color: $mineShaft;
                 font-weight: 500;
                 margin-bottom: 12px;
+                cursor: pointer;
             }
 
             span {
                 margin-right: 13px;
+                cursor: pointer;
             }
 
             ul {
@@ -157,6 +159,7 @@ export default {
             li {
                 height: 33px;
                 width: 50%;
+                cursor: pointer;
             }
 
             h4 {
@@ -164,6 +167,7 @@ export default {
                 color: $mineShaft;
                 font-weight: 600;
                 margin-bottom: 2px;
+                cursor: pointer;
             }
 
             .paragraph2 {
@@ -175,6 +179,7 @@ export default {
             img {
                 width: 51px;
                 margin-right: 13px;
+                cursor: pointer;
             }
         }
     }

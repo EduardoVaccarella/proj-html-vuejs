@@ -33,7 +33,7 @@ export default {
 .container-fluid {
     height: 565px;
     background-image: url('../assets/img/slide-1.jpg');
-    background-size: contain;
+    background-size: 1296px;
     background-repeat: no-repeat;
     background-position: center;
     background-color: #F4F4F6;
